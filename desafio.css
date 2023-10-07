@@ -1,0 +1,150 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    margin: 47px 0 0 42px;
+}
+
+.link-header{
+    color: #17233d;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    cursor: pointer;
+    margin-right: 32px;
+    letter-spacing: 0.875px;
+    
+}
+
+.button-header{
+    background: #6fbf44;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    border: 6px solid #4cb538;
+    color: #ffff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.logo-image{
+    width: 550px;
+    height: 500px;
+    
+}
+
+section{
+    margin-left: 96.83px;
+   
+}
+
+h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161a49;
+    margin-bottom: 47px;
+    letter-spacing: 0.596154px;
+    width: 582px;
+    
+}
+
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4b505a;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+    width: 493px;
+    
+}
+
+#link-section{
+    font-weight: 500;
+    color: #6fbf44;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+@media (max-width: 1075px){
+
+    div{
+        flex-direction: column-reverse;
+    }
+
+   .logo-image{
+    height: 300px;
+    width: 300px;
+    
+   }
+    
+   h1{
+    font-size: 30px;
+    width: 278px;
+    letter-spacing: 0.596px;
+    font-weight: 700;
+    line-height: 30px;   
+    text-align: center; 
+   }
+
+   p{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 33px;
+    font-weight: 400;
+    width: 304px;
+    text-align: center;
+    
+   }
+   
+   section{
+    margin: 0;
+   }
+
+   #link-section{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-left: 90px;
+   }
+
+   .link-header:not(button){
+    display: none;
+   }
+
+   .button-header{
+    margin:auto;
+    display:block;
+    position: relative;
+    left: 100px;
+    top: 17px;
+    width: 91px;
+    height: 31px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    
+   }
+}
